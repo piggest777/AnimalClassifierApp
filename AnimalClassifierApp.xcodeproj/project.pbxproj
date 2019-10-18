@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		B53423AB235A2B8A000D8343 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53423AA235A2B8A000D8343 /* AppDelegate.swift */; };
 		B53423AD235A2B8A000D8343 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53423AC235A2B8A000D8343 /* SceneDelegate.swift */; };
-		B53423AF235A2B8A000D8343 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53423AE235A2B8A000D8343 /* ViewController.swift */; };
+		B53423AF235A2B8A000D8343 /* AnimalClassVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53423AE235A2B8A000D8343 /* AnimalClassVC.swift */; };
 		B53423B2235A2B8A000D8343 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B53423B0235A2B8A000D8343 /* Main.storyboard */; };
 		B53423B4235A2B8C000D8343 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B53423B3235A2B8C000D8343 /* Assets.xcassets */; };
 		B53423B7235A2B8C000D8343 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B53423B5235A2B8C000D8343 /* LaunchScreen.storyboard */; };
+		B53423BF235A2EF4000D8343 /* RoundedVisualEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53423BE235A2EF4000D8343 /* RoundedVisualEffect.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B53423A7235A2B8A000D8343 /* AnimalClassifierApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimalClassifierApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B53423AA235A2B8A000D8343 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B53423AC235A2B8A000D8343 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B53423AE235A2B8A000D8343 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B53423AE235A2B8A000D8343 /* AnimalClassVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalClassVC.swift; sourceTree = "<group>"; };
 		B53423B1235A2B8A000D8343 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B53423B3235A2B8C000D8343 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B53423B6235A2B8C000D8343 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B53423B8235A2B8C000D8343 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B53423BE235A2EF4000D8343 /* RoundedVisualEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedVisualEffect.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +60,12 @@
 			children = (
 				B53423AA235A2B8A000D8343 /* AppDelegate.swift */,
 				B53423AC235A2B8A000D8343 /* SceneDelegate.swift */,
-				B53423AE235A2B8A000D8343 /* ViewController.swift */,
+				B53423AE235A2B8A000D8343 /* AnimalClassVC.swift */,
 				B53423B0235A2B8A000D8343 /* Main.storyboard */,
 				B53423B3235A2B8C000D8343 /* Assets.xcassets */,
 				B53423B5235A2B8C000D8343 /* LaunchScreen.storyboard */,
 				B53423B8235A2B8C000D8343 /* Info.plist */,
+				B53423BE235A2EF4000D8343 /* RoundedVisualEffect.swift */,
 			);
 			path = AnimalClassifierApp;
 			sourceTree = "<group>";
@@ -138,8 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B53423AF235A2B8A000D8343 /* ViewController.swift in Sources */,
+				B53423AF235A2B8A000D8343 /* AnimalClassVC.swift in Sources */,
 				B53423AB235A2B8A000D8343 /* AppDelegate.swift in Sources */,
+				B53423BF235A2EF4000D8343 /* RoundedVisualEffect.swift in Sources */,
 				B53423AD235A2B8A000D8343 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +291,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 83G4KB5W5L;
 				INFOPLIST_FILE = AnimalClassifierApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +310,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 83G4KB5W5L;
 				INFOPLIST_FILE = AnimalClassifierApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
