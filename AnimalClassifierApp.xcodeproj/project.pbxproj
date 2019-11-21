@@ -14,6 +14,7 @@
 		B53423B4235A2B8C000D8343 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B53423B3235A2B8C000D8343 /* Assets.xcassets */; };
 		B53423B7235A2B8C000D8343 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B53423B5235A2B8C000D8343 /* LaunchScreen.storyboard */; };
 		B53423BF235A2EF4000D8343 /* RoundedVisualEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53423BE235A2EF4000D8343 /* RoundedVisualEffect.swift */; };
+		B53423C3235A3AAE000D8343 /* AmimalCoreML 1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = B53423C2235A3AAE000D8343 /* AmimalCoreML 1.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		B53423B6235A2B8C000D8343 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B53423B8235A2B8C000D8343 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B53423BE235A2EF4000D8343 /* RoundedVisualEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedVisualEffect.swift; sourceTree = "<group>"; };
+		B53423C2235A3AAE000D8343 /* AmimalCoreML 1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "AmimalCoreML 1.mlmodel"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +60,33 @@
 		B53423A9235A2B8A000D8343 /* AnimalClassifierApp */ = {
 			isa = PBXGroup;
 			children = (
+				B53423C1235A3061000D8343 /* View */,
+				B53423C0235A3057000D8343 /* Controller */,
 				B53423AA235A2B8A000D8343 /* AppDelegate.swift */,
 				B53423AC235A2B8A000D8343 /* SceneDelegate.swift */,
-				B53423AE235A2B8A000D8343 /* AnimalClassVC.swift */,
 				B53423B0235A2B8A000D8343 /* Main.storyboard */,
 				B53423B3235A2B8C000D8343 /* Assets.xcassets */,
 				B53423B5235A2B8C000D8343 /* LaunchScreen.storyboard */,
 				B53423B8235A2B8C000D8343 /* Info.plist */,
-				B53423BE235A2EF4000D8343 /* RoundedVisualEffect.swift */,
+				B53423C2235A3AAE000D8343 /* AmimalCoreML 1.mlmodel */,
 			);
 			path = AnimalClassifierApp;
+			sourceTree = "<group>";
+		};
+		B53423C0235A3057000D8343 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B53423AE235A2B8A000D8343 /* AnimalClassVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B53423C1235A3061000D8343 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B53423BE235A2EF4000D8343 /* RoundedVisualEffect.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,6 +164,7 @@
 				B53423AB235A2B8A000D8343 /* AppDelegate.swift in Sources */,
 				B53423BF235A2EF4000D8343 /* RoundedVisualEffect.swift in Sources */,
 				B53423AD235A2B8A000D8343 /* SceneDelegate.swift in Sources */,
+				B53423C3235A3AAE000D8343 /* AmimalCoreML 1.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
